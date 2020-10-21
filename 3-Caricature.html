@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="CS 194 Project 3: Face Morphing">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>3 Caricature</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="3-Caricature.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 2.27.1, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster:400">
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "proj3",
+		"url": "index.html"
+}</script>
+    <meta property="og:title" content="3 Caricature">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#478ac9">
+    <link rel="canonical" href="index.html">
+    <meta property="og:url" content="index.html">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-header u-image u-header" id="sec-a396"><div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-custom-font u-font-Lobster u-text u-text-default u-text-palette-3-light-1 u-title u-text-1">CS 194 Project 3: Face Morphing</h1>
+        <h3 class="u-align-center u-text u-text-default u-text-white u-text-2">By Sainan Chen<br>10/9/2020
+        </h3>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-hover-palette-3-base u-nav-link u-palette-1-light-1 u-text-active-palette-3-base u-text-hover-white u-text-white" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-hover-palette-3-base u-nav-link u-palette-1-light-1 u-text-active-palette-3-base u-text-hover-white u-text-white" href="Overview.html" style="padding: 12px 20px;">Overview</a>
+</li><li class="u-nav-item"><a class="u-button-style u-hover-palette-3-base u-nav-link u-palette-1-light-1 u-text-active-palette-3-base u-text-hover-white u-text-white" href="1-Morph-2-Faces.html" style="padding: 12px 20px;">1 Morph 2 Faces</a>
+</li><li class="u-nav-item"><a class="u-button-style u-hover-palette-3-base u-nav-link u-palette-1-light-1 u-text-active-palette-3-base u-text-hover-white u-text-white" href="2-Mean-Face-of-a-Population.html" style="padding: 12px 20px;">2 Mean Face of a Population</a>
+</li><li class="u-nav-item"><a class="u-button-style u-hover-palette-3-base u-nav-link u-palette-1-light-1 u-text-active-palette-3-base u-text-hover-white u-text-white" href="3-Caricature.html" style="padding: 12px 20px;">3 Caricature</a>
+</li><li class="u-nav-item"><a class="u-button-style u-hover-palette-3-base u-nav-link u-palette-1-light-1 u-text-active-palette-3-base u-text-hover-white u-text-white" href="4-Bells-and-Whistles-Timeline.html" style="padding: 12px 20px;">4 Bells and Whistles Age</a>
+</li><li class="u-nav-item"><a class="u-button-style u-hover-palette-3-base u-nav-link u-palette-1-light-1 u-text-active-palette-3-base u-text-hover-white u-text-white" style="padding: 12px 20px;" href="Conclusion.html">Conclusion</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-menu-close"></div>
+              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Overview.html" style="padding: 12px 20px;">Overview</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="1-Morph-2-Faces.html" style="padding: 12px 20px;">1 Morph 2 Faces</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="2-Mean-Face-of-a-Population.html" style="padding: 12px 20px;">2 Mean Face of a Population</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="3-Caricature.html" style="padding: 12px 20px;">3 Caricature</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="4-Bells-and-Whistles-Timeline.html" style="padding: 12px 20px;">4 Bells and Whistles Age</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" style="padding: 12px 20px;" href="Conclusion.html">Conclusion</a>
+</li></ul>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header> 
+    <section class="u-clearfix u-palette-1-light-3 u-section-1" id="sec-1a27">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-default u-text-palette-3-base u-text-1">3.1 Exaggerate Color</h2>
+        <div class="u-container-style u-group u-palette-1-light-2 u-shape-rectangle u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <p class="u-text u-text-2">To exaggerate color features on a face, we can always get the features first by subtracting the warpped face from the main face, and then add or subtract the difference times a scale (alpha) back to the main face.&nbsp;</p>
+            <div class="u-shape u-shape-svg u-text-palette-1-base u-shape-1">
+              <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 100" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-91fe"></use></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 160 100" x="0px" y="0px" id="svg-91fe" style="enable-background:new 0 0 160 100;"><g><path d="M109.2,99.9L160,50L109.2,0H75.6l38.7,38H0v24.2h114L75.6,100L109.2,99.9z"></path>
+</g></svg>
+            </div>
+            <p class="u-small-text u-text u-text-default u-text-font u-text-variant u-text-3">My face warped to the mean shape</p>
+            <p class="u-small-text u-text u-text-default u-text-font u-text-variant u-text-4">Mean face</p>
+            <p class="u-small-text u-text u-text-default u-text-font u-text-variant u-text-5">Difference</p>
+            <p class="u-small-text u-text u-text-default u-text-font u-text-variant u-text-6">alpha=-1: mean - difference</p>
+            <p class="u-small-text u-text u-text-default u-text-font u-text-variant u-text-7">alpha=2: mean + 2* difference</p>
+            <p class="u-text u-text-8">It seems not work not on the gray images. Now I will try to exaggerate shape features instead.</p>
+          </div>
+        </div>
+        <div class="u-border-6 u-border-palette-1-base u-line u-line-horizontal u-line-1"></div>
+        <div class="u-clearfix u-gutter-70 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-image u-layout-cell u-left-cell u-size-20 u-image-1" data-image-width="249" data-image-height="300">
+                <div class="u-container-layout u-container-layout-2"></div>
+              </div>
+              <div class="u-container-style u-image u-layout-cell u-size-20 u-image-2" data-image-width="629" data-image-height="756">
+                <div class="u-container-layout u-container-layout-3"></div>
+              </div>
+              <div class="u-container-style u-image u-layout-cell u-right-cell u-size-20 u-image-3" data-image-width="247" data-image-height="299">
+                <div class="u-container-layout u-container-layout-4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-clearfix u-gutter-100 u-layout-wrap u-layout-wrap-2">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-image u-layout-cell u-left-cell u-size-30 u-image-4" data-image-width="249" data-image-height="298">
+                <div class="u-container-layout u-container-layout-5"></div>
+              </div>
+              <div class="u-container-style u-image u-layout-cell u-right-cell u-size-30 u-image-5" data-image-width="667" data-image-height="803">
+                <div class="u-container-layout u-container-layout-6"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-palette-1-light-3 u-section-2" id="sec-b8c7">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h2 class="u-text u-text-default u-text-palette-3-base u-text-1">3.2 Exaggerate Shape</h2>
+        <div class="u-container-style u-group u-palette-1-light-2 u-shape-rectangle u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <p class="u-text u-text-default u-text-2">To exaggerate shape features on a face, I times a scale (alpha) to difference between the reference points on my face and the mean face. Then I add the result back to mean face reference point cooridinates to enlarge my difference from the mean face.&nbsp;<br>
+              <br>Below are examples setting alpha = 1.5 and 3 respectively, and we can see my features like&nbsp;<b>
+                <font class="u-text-palette-1-base">large nose, smiled mouth and narrower jaw</font></b>&nbsp;are exaggerated!
+            </p>
+            <p class="u-align-center u-small-text u-text u-text-default u-text-font u-text-variant u-text-3">my face warpped to the mean shape<br>(alpha = 1)
+            </p>
+            <p class="u-small-text u-text u-text-default u-text-font u-text-variant u-text-4">my original face</p>
+            <p class="u-small-text u-text u-text-default u-text-font u-text-variant u-text-5">alpha = 3</p>
+            <p class="u-small-text u-text u-text-default u-text-font u-text-variant u-text-6">alpha = 1.5</p>
+            <p class="u-small-text u-text u-text-default u-text-font u-text-variant u-text-7">mean face</p>
+          </div>
+        </div>
+        <div class="u-clearfix u-gutter-28 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-image u-layout-cell u-left-cell u-size-12 u-image-1" data-image-width="629" data-image-height="756">
+                <div class="u-container-layout u-container-layout-2"></div>
+              </div>
+              <div class="u-container-style u-image u-layout-cell u-size-12 u-image-2" data-image-width="246" data-image-height="295">
+                <div class="u-container-layout u-valign-top u-container-layout-3"></div>
+              </div>
+              <div class="u-container-style u-image u-layout-cell u-size-12 u-image-3" data-image-width="616" data-image-height="756">
+                <div class="u-container-layout u-container-layout-4"></div>
+              </div>
+              <div class="u-container-style u-image u-layout-cell u-size-12 u-image-4">
+                <div class="u-container-layout u-container-layout-5"></div>
+              </div>
+              <div class="u-container-style u-image u-layout-cell u-right-cell u-size-12 u-image-5">
+                <div class="u-container-layout u-container-layout-6"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-8bd9"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">Sainan Chen</p>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+        <span>Website Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="https://nicepage.com/" target="_blank">
+        <span>Website Builder Software</span>
+      </a>. 
+    </section><span style="height: 64px; width: 64px; margin-left: 0; margin-right: auto; margin-top: 0; background-image: none; right: 20px; bottom: 20px" class="u-back-to-top u-icon u-icon-circle u-opacity u-opacity-85 u-palette-1-base u-spacing-15" data-href="#">
+        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 551.13 551.13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d98"></use></svg>
+        <svg class="u-svg-content" enable-background="new 0 0 551.13 551.13" viewBox="0 0 551.13 551.13" xmlns="http://www.w3.org/2000/svg" id="svg-1d98"><path d="m275.565 189.451 223.897 223.897h51.668l-275.565-275.565-275.565 275.565h51.668z"></path></svg>
+    </span>
+  </body>
+</html>
